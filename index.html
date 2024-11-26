@@ -10,7 +10,7 @@
   <!-- Favicon Icon -->
   <link rel="icon" href="assets/img/favicon.png">
   <!-- Site Title -->
-  <title>Dr Verdiane - Home</title>
+  <title>Dr MB - Home</title>
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/fontawesome.min.css">
   <link rel="stylesheet" href="assets/css/animate.css">
@@ -42,6 +42,9 @@
     </div>
   </div>
   <!-- End Preloader -->
+
+  
+
   <!-- Start Header Section -->
   <header class="cs_site_header cs_style_1 cs_sticky_header cs_heading_font">
     <div class="cs_main_header">
@@ -96,6 +99,59 @@
     </form>
   </div>
   <!-- End Header Section -->
+
+
+  <!-- conditions start -->
+  <section class="conditions" id="conditions" onscroll=" window.addEventListener('DOMMouseScroll', events.wheel, false);">
+    <div class="terms-box">
+      <div class="terms-text">
+        <h2>Terms Of Services</h2>
+        <p>Derniere modification : 25/11/2024</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, enim? Tenetur magnam voluptates animi iste
+          vel corporis modi quidem beatae. Libero nostrum vitae ipsam eligendi nemo temporibus a neque adipisci illum
+          cumque, aperiam maxime ut nulla incidunt asperiores quaerat totam doloremque eveniet voluptatem itaque?
+          Voluptatem modi soluta quidem architecto obcaecati.</p>
+        <p>Dolore quidem aspernatur id magni fuga architecto vitae! Vero illo asperiores, eveniet ex voluptatibus
+          explicabo! A, assumenda animi voluptates fuga praesentium necessitatibus in debitis quibusdam obcaecati
+          laborum beatae quisquam, ipsa molestiae voluptatem ab dolor doloremque eaque velit! Tempore, sapiente dolorum.
+          Illum debitis veritatis hic. Veritatis quidem quibusdam ullam autem dolore!</p>
+        <p>Dolores, provident. Autem fugiat repellat tenetur earum reprehenderit animi illo at rerum, pariatur ipsam
+          nostrum magnam, rem facilis debitis assumenda atque, nemo explicabo dolor ut. Voluptatibus harum adipisci
+          necessitatibus odit alias in enim laboriosam repellendus similique pariatur accusamus rerum rem vero eius,
+          dolore sapiente eos esse? Id eius omnis debitis.</p>
+        <p>Inventore expedita magnam et asperiores autem quas iure excepturi a molestias fuga ea provident laborum
+          nostrum ipsam blanditiis eos animi ad aspernatur aperiam, beatae magni voluptates! Odit ab autem quod sequi
+          hic omnis magni, porro nulla, laborum fuga aut veritatis optio quibusdam nobis consectetur iure,
+          necessitatibus accusamus? Maiores, adipisci vitae.</p>
+        <p>Corrupti illum, soluta odio provident quidem quam molestiae exercitationem recusandae, distinctio quasi
+          laudantium tempora vel deleniti aperiam rem dolorem nesciunt itaque tempore beatae tenetur earum nobis, rerum
+          accusantium! Odit sed hic aspernatur, molestias quam impedit officiis excepturi, quas voluptates quia nostrum!
+          A voluptatum corrupti sequi velit maxime deserunt tempore. Minima.</p>
+        <p>Ducimus eum necessitatibus ullam cum itaque sit expedita nam, dignissimos amet rem consequatur assumenda
+          atque voluptatum aspernatur esse facilis quis quae adipisci beatae aliquam nobis deleniti maiores. Cupiditate
+          totam debitis quis tempora temporibus laudantium iste facere sed doloribus inventore veniam, odit dolorum
+          voluptatibus labore? Similique enim repellat mollitia iure culpa!</p>
+      </div><br>
+      <h4>J'accepte les <span><a href="privacy.html">Conditions de services</a></span> et j'ai lu les cnditions d'utilisations du
+        site </h4>
+      <div class="buttons">
+      <button class="btn green-btn" onclick="toggle()">Accepter</button>
+        <input type="button" value="Refuser" class="btn red-btn" action="action"
+          onclick="window.history.go(-1); return false;">        
+      </div>
+    </div>
+  </section>
+
+  <script>
+  var x = document.getElementById("conditions")
+  function toggle(){
+  x.style.display = "none";
+  return true;
+  }
+  
+  
+  </script>
+  <!-- end conditions -->
   <!-- Start Hero Section -->
   <section class="cs_hero cs_style_1 cs_bg_filed position-relative" data-src="assets/img/pic2.jpg">
     <div class="cs_hero_overlay position-absolute"></div>
@@ -107,8 +163,7 @@
           <p class="cs_hero_subtitle cs_fs_20 cs_medium cs_white_color cs_heading_font">Préservez-vous et maintenez vous
             en bonne santé, gr&acirc;ce aux dernieres innovations technologiques disponibles pr&egrave;s de chez vous !
           </p>
-          <a href="#"
-            class="cs_player_btn cs_style_1 cs_video_open cs_heading_font"> <!-- video d'explication-->
+          <a href="#" class="cs_player_btn cs_style_1 cs_video_open cs_heading_font"> <!-- video d'explication-->
             <span class="cs_player_btn_icon cs_center"><i class="fa-solid fa-play"></i></span>
             <span class="cs_play_btn_text cs_fs_18 cs_semibold cs_white_color">Comment nous travaillons</span>
           </a> <!-- lien youtube / video -->
@@ -151,6 +206,7 @@
     </a>
   </section>
   <!-- End Hero Section -->
+
   <!-- Start Department Section -->
   <section class="cs_department cs_style_1">
     <div class="cs_height_120 cs_height_lg_80"></div>
@@ -180,7 +236,7 @@
               <div class="cs_iconbox_icon cs_center">
                 <img src="assets/img/icons/department_icon_2.svg" alt="Icon">
               </div>
-              <h3 class="cs_iconbox_title cs_fs_32 cs_bold mb-0">Dpartement Pédiatrique</h3>
+              <h3 class="cs_iconbox_title cs_fs_32 cs_bold mb-0">Département Pédiatrique</h3>
             </div>
             <div class="cs_iconbox_shape position-absolute"></div>
           </a>
@@ -240,15 +296,16 @@
     <div class="container">
       <div class="row align-items-center cs_gap_y_40">
         <div class="col-lg-6">
-          <div class="cs_about_thumbnail">   <a href="#" class="cs_player_btn cs_style_1 cs_video_open"><!--lien viedeo / youtube-->
-                <span class="cs_player_btn_icon cs_center">
-                  <img src="assets/img/icons/player_icon.svg" alt="Icon">
-                </span>
-                <span class="cs_play_btn_text cs_fs_18 cs_semibold cs_accent_color">Comment Nous travaillons</span>
-              </a>
+          <div class="cs_about_thumbnail"> <a href="#"
+              class="cs_player_btn cs_style_1 cs_video_open"><!--lien viedeo / youtube-->
+              <span class="cs_player_btn_icon cs_center">
+                <img src="assets/img/icons/player_icon.svg" alt="Icon">
+              </span>
+              <span class="cs_play_btn_text cs_fs_18 cs_semibold cs_accent_color">Comment Nous travaillons</span>
+            </a>
             <div class="cs_about_thumbnail_1">
-             
-               <img src="assets/img/pic3.jpg" alt="Image">
+
+              <img src="assets/img/pic3.jpg" alt="Image">
             </div>
             <div class="cs_about_thumbnail_2">
               <img src="assets/img/pic5.jpg" alt="About Image">
@@ -258,13 +315,13 @@
                 <circle opacity="0.3" cx="62" cy="50" r="49.5" stroke="currentColor" stroke-dasharray="4 4" />
                 <circle opacity="0.3" cx="50" cy="72" r="49.5" stroke="currentColor" stroke-dasharray="4 4" />
               </svg>
-            
+
             </div>
             <div class="cs_experience_box cs_center cs_accent_bg cs_radius_50">
               <p class="cs_experience_box_number cs_fs_48 cs_bold cs_white_color">04+</p>
               <p class="cs_experience_box_title cs_fs_20 cs_medium cs_white_color">Experience</p>
             </div>
-            
+
           </div>
         </div>
         <div class="col-lg-6 wow fadeInRight" data-wow-duration="0.9s" data-wow-delay="0.25s">
@@ -378,7 +435,7 @@
           Nous proposons des services accessibles à tous, avec des facilités de paiement et des consultations adaptées à
           vos besoins.</p>
         <div class="cs_btns_group wow fadeInUp" data-wow-duration="0.9s" data-wow-delay="0.25s">
-          <a href="about.html" class="cs_btn cs_style_1 cs_fs_18 cs_semibold cs_accent_bg  cs_radius_100">
+          <a href="privacy.html" class="cs_btn cs_style_1 cs_fs_18 cs_semibold cs_accent_bg  cs_radius_100">
             <span class="cs_btn_text">Savoir Plus</span>
           </a>
           <a href="contact.html" class="cs_btn cs_style_1 cs_fs_18 cs_semibold cs_accent_bg  cs_radius_100">
@@ -677,115 +734,7 @@
     <div class="cs_height_120 cs_height_lg_80"></div>
   </section>
   <!-- End Pricing Section -->
-  <!-- Start Team Section -->
-  <section class="cs_slider cs_style_1 cs_slider_gap_30">
-    <div class="cs_height_120 cs_height_lg_80"></div>
-    <div class="container">
-      <div class="cs_section_heading cs_style_1 wow fadeInUp" data-wow-duration="0.9s" data-wow-delay="0.25s">
-        <p class="cs_section_subtitle cs_accent_color cs_fs_18 cs_semibold cs_heading_font">Notre Equipe</p>
-        <h2 class="cs_section_title cs_fs_48 mb-0">Nous sommes des Docteurs <br>Professionnels et Spécialisés</h2>
-      </div>
-      <div class="cs_height_50 cs_height_lg_40"></div>
-      <div class="cs_full_screen_right cs_variable_width_wrap cs_ptb_12">
-        <div class="cs_slider_container" data-autoplay="0" data-loop="1" data-speed="700" data-center="0"
-          data-variable-width="1" data-slides-per-view="1">
-          <div class="cs_slider_wrapper">
-            <div class="cs_slide">
-              <div class="cs_team cs_style_1">
-                <div class="cs_team_thumbnail cs_center">
-                  <img src="assets/img/pic4.jpg" alt="Team Thumbnail">
-                  <div class="cs_social_btns cs_style_1 position-absolute">
-                    <a href="#" class="cs_center cs_radius_8 cs_share"><i class="fa-solid fa-plus"></i></a>
-                    <a href="#" class="cs_center cs_radius_8"><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="#" class="cs_center cs_radius_8"><i class="fa-brands fa-x-twitter"></i></a>
-                    <a href="#" class="cs_center cs_radius_8"><i class="fa-brands fa-instagram"></i></a>
-                  </div>
-                </div>
-                <div class="cs_team_bio">
-                  <h3 class="cs_team_title cs_fs_20 cs_medium cs_accent_color"><a href="doctor-details.html">Dr. John
-                      Doe</a></h3>
-                  <p class="cs_team_subtitle mb-0">Chirugien</p>
-                </div>
-              </div>
-            </div>
-            <div class="cs_slide">
-              <div class="cs_team cs_style_1">
-                <div class="cs_team_thumbnail cs_center">
-                  <img src="assets/img/pic4.jpg" alt="Team Thumbnail">
-                  <div class="cs_social_btns cs_style_1 position-absolute">
-                    <a href="#" class="cs_center cs_radius_8 cs_share"><i class="fa-solid fa-plus"></i></a>
-                    <a href="#" class="cs_center cs_radius_8"><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="#" class="cs_center cs_radius_8"><i class="fa-brands fa-x-twitter"></i></a>
-                    <a href="#" class="cs_center cs_radius_8"><i class="fa-brands fa-instagram"></i></a>
-                  </div>
-                </div>
-                <div class="cs_team_bio">
-                  <h3 class="cs_team_title cs_fs_20 cs_medium cs_accent_color"><a href="doctor-details.html">Dr. Jane
-                      Doe</a></h3>
-                  <p class="cs_team_subtitle mb-0">Ophtamologue</p>
-                </div>
-              </div>
-            </div>
-            <div class="cs_slide">
-              <div class="cs_team cs_style_1">
-                <div class="cs_team_thumbnail cs_center">
-                  <img src="assets/img/pic4.jpg" alt="Team Thumbnail">
-                  <div class="cs_social_btns cs_style_1 position-absolute">
-                    <a href="#" class="cs_center cs_radius_8 cs_share"><i class="fa-solid fa-plus"></i></a>
-                    <a href="#" class="cs_center cs_radius_8"><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="#" class="cs_center cs_radius_8"><i class="fa-brands fa-x-twitter"></i></a>
-                    <a href="#" class="cs_center cs_radius_8"><i class="fa-brands fa-instagram"></i></a>
-                  </div>
-                </div>
-                <div class="cs_team_bio">
-                  <h3 class="cs_team_title cs_fs_20 cs_medium cs_accent_color"><a href="doctor-details.html">Dr. John
-                      Doe</a></h3>
-                  <p class="cs_team_subtitle mb-0">Gynécologue</p>
-                </div>
-              </div>
-            </div>
-            <div class="cs_slide">
-              <div class="cs_team cs_style_1">
-                <div class="cs_team_thumbnail cs_center">
-                  <img src="assets/img/pic4.jpg" alt="Team Thumbnail">
-                  <div class="cs_social_btns cs_style_1 position-absolute">
-                    <a href="#" class="cs_center cs_radius_8 cs_share"><i class="fa-solid fa-plus"></i></a>
-                    <a href="#" class="cs_center cs_radius_8"><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="#" class="cs_center cs_radius_8"><i class="fa-brands fa-x-twitter"></i></a>
-                    <a href="#" class="cs_center cs_radius_8"><i class="fa-brands fa-instagram"></i></a>
-                  </div>
-                </div>
-                <div class="cs_team_bio">
-                  <h3 class="cs_team_title cs_fs_20 cs_medium cs_accent_color"><a href="doctor-details.html">Dr.
-                      Verdiane</a></h3>
-                  <p class="cs_team_subtitle mb-0">Medicine Specialist</p>
-                </div>
-              </div>
-            </div>
-            <div class="cs_slide">
-              <div class="cs_team cs_style_1">
-                <div class="cs_team_thumbnail cs_center">
-                  <img src="assets/img/pic4.jpg" alt="Team Thumbnail">
-                  <div class="cs_social_btns cs_style_1 position-absolute">
-                    <a href="#" class="cs_center cs_radius_8 cs_share"><i class="fa-solid fa-plus"></i></a>
-                    <a href="#" class="cs_center cs_radius_8"><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="#" class="cs_center cs_radius_8"><i class="fa-brands fa-x-twitter"></i></a>
-                    <a href="#" class="cs_center cs_radius_8"><i class="fa-brands fa-instagram"></i></a>
-                  </div>
-                </div>
-                <div class="cs_team_bio">
-                  <h3 class="cs_team_title cs_fs_20 cs_medium cs_accent_color"><a href="doctor-details.html">Dr. Jane
-                      Doe</a></h3>
-                  <p class="cs_team_subtitle mb-0">Lorem, ipsum.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Team Section -->
+  
   <!-- Start Work Process Section -->
   <section>
     <div class="cs_height_120 cs_height_lg_80"></div>
@@ -848,7 +797,9 @@
                 </div>
                 <div class="cs_iconbox_text">
                   <h3 class="cs_iconbox_title cs_fs_32 cs_white_color">100% S&ucirc;r et Fiable</h3>
-                  <p class="cs_iconbox_subtitle cs_white_color mb-0">Nos médecins et professionnels de santé sont expérimentés et formés pour vous fournir des soins de qualité. Nous croyons en une approche personnalisée, où chaque patient est traité avec respect et attention.</p>
+                  <p class="cs_iconbox_subtitle cs_white_color mb-0">Nos médecins et professionnels de santé sont
+                    expérimentés et formés pour vous fournir des soins de qualité. Nous croyons en une approche
+                    personnalisée, où chaque patient est traité avec respect et attention.</p>
                 </div>
               </div>
             </div>
@@ -859,7 +810,9 @@
                 </div>
                 <div class="cs_iconbox_text">
                   <h3 class="cs_iconbox_title cs_fs_32 cs_white_color">Specialistes Disponible</h3>
-                  <p class="cs_iconbox_subtitle cs_white_color mb-0">Nous nous efforçons de vous accompagner à chaque étape de votre parcours médical, en vous orientant vers des spécialistes si nécessaire, et en vous offrant des conseils pratiques pour maintenir une bonne santé.</p>
+                  <p class="cs_iconbox_subtitle cs_white_color mb-0">Nous nous efforçons de vous accompagner à chaque
+                    étape de votre parcours médical, en vous orientant vers des spécialistes si nécessaire, et en vous
+                    offrant des conseils pratiques pour maintenir une bonne santé.</p>
                 </div>
               </div>
             </div>
@@ -870,8 +823,9 @@
                 </div>
                 <div class="cs_iconbox_text">
                   <h3 class="cs_iconbox_title cs_fs_32 cs_white_color">24/7 Disponible</h3>
-                  <p class="cs_iconbox_subtitle cs_white_color mb-0">Nous mettons un point d'honneur à réduire les délais d'attente et à offrir des consultations en temps utile.
-</p>
+                  <p class="cs_iconbox_subtitle cs_white_color mb-0">Nous mettons un point d'honneur à réduire les
+                    délais d'attente et à offrir des consultations en temps utile.
+                  </p>
                 </div>
               </div>
             </div>
@@ -1019,7 +973,9 @@
           <div class="cs_footer_widget">
             <div class="cs_footer_text_widget">
               <img src="assets/img/logo.png" style="width: 200px;" alt="Logo">
-              <p>Notre équipe de professionnels de santé s'engage à vous offrir des soins de qualité dans un environnement confortable et sécurisé. Que vous soyez à la recherche d'une consultation de routine ou de soins spécialisés, nous sommes là pour répondre à vos besoins médicaux</p>
+              <p>Notre équipe de professionnels de santé s'engage à vous offrir des soins de qualité dans un
+                environnement confortable et sécurisé. Que vous soyez à la recherche d'une consultation de routine ou de
+                soins spécialisés, nous sommes là pour répondre à vos besoins médicaux</p>
             </div>
             <div class="cs_social_btns cs_style_1">
               <a href="#" class="cs_center">
@@ -1065,9 +1021,9 @@
         </div>
         <div class="cs_footer_col">
           <div class="cs_footer_widget">
-            <h2 class="cs_footer_widget_title cs_fs_32 cs_white_color cs_bold">Nos Buresux</h2>
+            <h2 class="cs_footer_widget_title cs_fs_32 cs_white_color cs_bold">Nos Bureaux</h2>
             <ul class="cs_footer_widget_menu cs_address">
-              <li>1234 adresse, Belgique</li>
+              <li>Rue de Bomerée 11, <br>6110 Montigny-le-Tilleul <br> Belgique</li>
               <li class="cs_fs_32 cs_bold cs_phone_number">
                 <div class="cs_height_20 cs_height_lg_20"></div>
                 <a href="tel:+32123412345">+32 1234 12344</a>
@@ -1082,7 +1038,7 @@
         <div class="cs_footer_bottom_in">
           <p class="cs_copyright mb-0">MD Medical Services &copy; 2024. All Rights Reserved.</p>
           <ul class="cs_footer_widget_menu">
-            <li><a href="#">Privacy &amp; Cookie Policy</a></li>
+            <li><a href="privacy.html">Privacy &amp; Cookie Policy</a></li>
           </ul>
         </div>
       </div>
@@ -1097,7 +1053,7 @@
   </span>
   <!-- End Scroll Up Button -->
 
-  <!-- Start Color Chnage  -->
+  <!-- Start Color Change  -->
   <div class="cs_color_settings">
     <div class="cs_color_settings_btn cs_center"><i class="fa-solid fa-gear"></i></div>
     <div class="cs_color_settings_in">
