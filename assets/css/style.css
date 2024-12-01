@@ -5008,6 +5008,21 @@ a.ui-button:active,
   }
 }
 
+.btn_appointment{
+display:none;
+}
+@media (max-width: 574px) {
+  .btn_appointment {
+    display: block;
+  }
+}
+@media (max-width: 574px) {
+ .text_dsp {
+    display: none;
+  }
+}
+
+
 .cs_header_btn_1 {
   display: inline-block;
   position: relative;
